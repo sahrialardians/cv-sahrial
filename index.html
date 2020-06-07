@@ -79,7 +79,7 @@
                         </a>
                     </li>
                 </ul>
-                <a href="mailto:sahrial26@gmail.com?subject=New%20Job%20For%20You!&body=Hi%20Sahrial%2c%0a%0aI%20have%20work%20for%20you!" class="btn-connect">Let's Connect</a> 
+                <a href="mailto:sahrial26@gmail.com?subject=New%20Job%20For%20You!&body=Hi%20Sahrial%2c%0a%0aI%20have%20work%20for%20you!" class="btn-connect" id="letsConnect">Let's Connect</a> 
             </article>
         </aside>
     
@@ -284,9 +284,9 @@
     </footer>
     <script src="assets/libraries/script.js"></script>
     <script type="text/javascript">
-        document.querySelector('btn-connect').addEventListener('click', function () {
+        $('#$letsConnect').click(function () {
             fbq('track', 'Contact');
-        }, false);
+        });
     </script>
 </body>
 </html>
